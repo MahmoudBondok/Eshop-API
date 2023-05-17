@@ -8,6 +8,9 @@
     "start:dev": "nodemon server.js",
     "start": "SET NODE_ENV=production & node server.js"
   },
+    "engines": {
+    "node": "18.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Boghdady/preparing-nodejs-course.git"
